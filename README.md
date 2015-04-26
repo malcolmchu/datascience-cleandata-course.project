@@ -8,31 +8,36 @@ The purpose of this project is to demonstrate the ability to collect, work with,
 
 The source data for the project can be found here:
 
-[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 ##Prerequisite
+
+IMPORTANT: You must have the "plyr" package installed for run_analysis.R to work correctly.
 
 Extract the source data zip file and drop the run_analysis.R script into the folder "UCI HAR Dataset". Set the working directory in R or RStudio to the location where the files are located in your own directory. The structure of the working directory and exact files used for the project are listed below:
 
 Input:
-> run_analysis.R
-> train/X_train.txt
-> train/y_train.txt
-> train/subject_train.txt
-> test/X_test.txt
-> test/y_test.txt
-> test/subject_test.txt
-> features.txt
-> activity_labels.txt
+
+* run_analysis.R
+* train/X_train.txt
+* train/y_train.txt
+* train/subject_train.txt
+* test/X_test.txt
+* test/y_test.txt
+* test/subject_test.txt
+* features.txt
+* activity_labels.txt
 
 Output:
-> mean_data.txt
+
+* mean_data.txt
 
 ##Project Summary
 
 The following is a summary of the project instructions:
 
 You should create one R script called run_analysis.R that does the following:
+
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 3. Uses descriptive activity names to name the activities in the data set.

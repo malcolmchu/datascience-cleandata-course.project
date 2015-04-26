@@ -10,7 +10,7 @@ One of the most exciting areas in all of data science right now is wearable comp
 
 The source data for the project can be found here:
 
-[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 ##Data Set Information
 
@@ -33,14 +33,17 @@ The following are provided for each record in the dataset:
 Read into tables the measurement, activity and subject data sets for both training and test. Combine them using row bind into separate data sets.
 
 measurementData
+
 - 'train/X_train.txt': Training set.
 - 'test/X_test.txt': Test set.
 
 activityData
+
 - 'train/y_train.txt': Training labels.
 - 'test/y_test.txt': Test labels.
 
 subjectData
+
 - 'train/subject_train.txt': Training subject.
 - 'test/subject_test.txt': Test subject.
 
